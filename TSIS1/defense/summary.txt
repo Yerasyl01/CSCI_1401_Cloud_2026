@@ -1,0 +1,7 @@
+The application built can be not an AI agent but rather deterministic bot for automized and strict calculations without any hallucinations.
+As ROI brings 140%, and there will be no governance ethics violation with usual accident notifier.
+It will be a simple, yet very beneficialautomated notifying bot which will help to users choose another flight instantly, after cancelation
+of their own initial flight, explaining the reasons of cancellation.
+The only thing which has to be done with caution are automated refund calculations.
+
+That way the final verdict is that project should be implemented, as all problems are solvable.
