@@ -1,55 +1,49 @@
-# Product Requirements Document: The "CapEx Whisperer" Agent
+# Product Requirements Document: Passenger Disruption Recovery Agent
+**Project Code:** "Phoenix" (Automated Rebooking System)
+**Owner:** Ruslan (Senior Product Manager)
 
 ## 1. Executive Summary
-The **CapEx Whisperer** is an agentic tool designed for Product Managers in legacy "Industrial" organizations (Airlines, Mining, Energy). It solves the "Digital CapEx Trap" by translating agile, experiment-based software needs into the rigid, asset-heavy financial language required by Investment Committees.
+This is the "Agile Experiment" Ruslan is trying to fund. It is an AI-driven agent embedded in the Air Astana mobile app that automatically resolves passenger disruptions (cancellations/delays) without human intervention.
+**Strategic Alignment:** Directly supports the Strategy Pillar "Efficiency" (Low Cost Base) and "Excellence" (Customer Experience).
 
 ## 2. Job to be Done (JTBD)
-**Context:** Ruslan (PM) needs to hire 2 devs for 3 months ($40k) to test a feature.
-**Trigger:** Finance rejects the request because it lacks a "10-Year Asset Depreciation Schedule."
-**The Job:** "Help me secure funding for this agile experiment by reframing it as a compliant 'Capital Asset' or 'Essential Maintenance' project so that I can bypass the Investment Committee rejection."
+**Primary Persona:** The "Stranded Passenger"
+*   **Trigger:** "My flight KC-XXX just got cancelled while I'm at the airport."
+*   **Current State (Pain):** Panic. Must queue at a physical desk (2 hours) or call the contact center (45 min hold).
+*   **The Job:** "Get me on the next best flight home immediately so I don't miss my meeting/family event."
+*   **Success Metrics:**
+    *   Time to Rebook: < 2 minutes.
+    *   NPS Contribution: +5 points.
 
-**Success Criteria:**
-*   Approvals obtained < 5 days.
-*   Zero "Investment Memos" written from scratch.
-*   "Fraud Score" = 0 (Uses legitimate accounting classifications, not lies).
+**Secondary Persona:** The "Overwhelmed Call Center Agent"
+*   **The Job:** "Deflect routine rebooking calls during mass disruptions so I can focus on complex cases (minors, medical)."
 
-## 3. User Persona: Ruslan
-*   **Pain:** Hates bureaucracy, feels misunderstood by Finance ("They count rivets, I write code").
-*   **Need:** Speed and a "hack." He wants the "Magic Words" that make Finance say yes.
-*   **Input Style:** "I need to fix the login flow."
-*   **Desired Output:** A 10-page memo calculating the "Net Present Value of User Auth Asset Preservation."
+## 3. Product Vision & Principles
+*   **Proactive, not Reactive:** Push the solution before the user calls.
+*   **Transparency:** Explain *why* the flight was cancelled (per Law on AI explainability).
+*   **Fairness:** Do not prioritize high-status passengers for seats in a way that violates "Fair Treatment" laws.
 
 ## 4. Functional Requirements
 
-### F1: The "Assetization" Translator
-*   **Description:** Translates software engineering tasks into GAAP-compliant "Capital Asset" terminology.
-*   **User Input:** "Refactoring the backend code to reduce latency."
-*   **Agent Logic:** "Refactoring" = OpEx (Maintenance) -> Rejected. "Extending Useful Life" = CapEx (Investment) -> Approved.
-*   **Agent Output:** "Strategic initiative to extend the useful economic life of the Core Digital Booking Engine (Asset #884) by 3 years, qualifying for amortization under IAS 38 (Intangible Assets)."
+### F1: The "Instant Offer" Engine
+*   **Trigger:** Flight Status changes to "Cancelled" in the Operational Database.
+*   **Action:** Algorithm identifies the 3 best alternative routes (considering partnerships).
+*   **Output:** Push notification: "We are sorry. Your flight is cancelled. We have held a seat for you on KC-YYY departing in 3 hours. Confirm?"
 
-### F2: The "Authority Limit" Loophole Finder
-*   **Description:** Scans internal policy documents to find the "check size" that avoids full committee review.
-*   **User Input:** "Budget is $60k."
-*   **Agent Action:** Checks uploaded "Procurement Policy.pdf". Finds that "projects under $50k" only need VP approval.
-*   **Agent Output:** "Ruslan, if you scope this down to $49,500 by removing the 'Dark Mode' feature, you can bypass the Investment Committee entirely under Policy Clause 4.2a (Small Works)."
+### F2: Comp-and-Care Automation
+*   **Context:** If delay > 2 hours.
+*   **Action:** Automatically issue digital vouchers for food/hotel to the app wallet.
+*   **Constraint:** Compliance with Aviation Law (Article 86 - Passenger Rights).
 
-### F3: The ROI Proxy Generator
-*   **Description:** Generates defensible financial projections for features that don't satisfy "Contracted Revenue" criteria.
-*   **User Input:** "It's just a disruption tool, it doesn't make money directly."
-*   **Agent Logic:** Disruption Tool = Lower Call Center Volume = Cost Saving.
-*   **Agent Output:** "Projected Savings: 5,000 calls deflected @ $4/call = $20,000/month. Annual Impact: $240k. 3-Year NPV: $650k. ROI: 400%."
+### F3: Refund vs. Rebook Logic
+*   **Logic:** If no flights exist within 24 hours, offer instant full refund to original payment method.
 
-### F4: The "Threat" Framework
-*   **Description:** Frames not doing the project as a "Risk" rather than a "Missed Opportunity" (Industrial Boards fear Risk more than they greed for Opportunity).
-*   **User Input:** "We should do this to be modern."
-*   **Agent Output:** "Failure to implement this update creates a Compliance Risk regarding Passenger Rights Legislation (Rule 261/2004), potentially exposing the airline to regulatory fines."
+## 5. Technical Architecture (The "CapEx" Argument)
+To satisfy Finance, we define this not as "scripting" but as **"Building Digital Infrastructure"**:
+*   **Core Asset:** "Disruption Logic Engine" (Capitalizable Intangible Asset).
+*   **Integration:** Connects Amadeus (PSS) with the Mobile App API.
 
-## 5. User Interface (Chat Interaction)
-**Ruslan:** "I need money for the flight change bot."
-**Agent:** "Okay. Is this a **New Asset** or **Maintenance**? (Hint: Maintenance is OpEx and will kill your EBITDA. Let's frame it as an 'Enhancement' to capitalize it.)"
-**Ruslan:** "Enhancement."
-**Agent:** "Great. Give me the estimated reduction in call center minutes, and I will generate the 'Section 7: Guaranteed Revenue' paragraph."
-
-## 6. Technical Constraints
-*   **Knowledge Base:** Must ingest IFRS/GAAP accounting standards regarding "Intangible Assets."
-*   **Tone:** Professional/Financial in generated documents; Conspiratorial/Helpful in chat with Ruslan.
+## 6. Success Metrics (Outcomes)
+*   **Call Deflection:** 40% of disruptive contacts resolved in-app.
+*   **Cost Savings:** Lower GDS fees + reduced Call Center overtime.
+*   **Speed:** Average resolution time drops from 45 mins to 90 seconds.
