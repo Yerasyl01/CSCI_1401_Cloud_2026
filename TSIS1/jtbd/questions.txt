@@ -1,0 +1,21 @@
+### The 5 Whys: Digging for Root Cause with Ruslan
+
+**1. The Symptom:**
+"Ruslan, why specifically did Finance reject your proposal to hire two freelance developers for a 3-month experiment?"
+*(Ruslan's likely answer: "Because I didn't fill out the 10-year 'Asset Depreciation Schedule'.")*
+
+**2. The Classification:**
+"Why does the organization require an 'Asset Depreciation Schedule' for a temporary software experiment that might not even exist in 6 months?"
+*(Ruslan's likely answer: "Because all software development is classified as 'Capital Expenditure' (CapEx) to boost our balance sheet assets.")*
+
+**3. The Financial Incentive:**
+"Why is the company so obsessed with capitalizing every hour of developer time rather than just expensing it as R&D (OpEx) like a tech company?"
+*(Ruslan's likely answer: "Because our investor covenants are based on EBITDA and Asset Value. Expensing it would lower our short-term profits.")*
+
+**4. The Cultural Gap:**
+"Why hasn't the CTO or Digital Leadership created a separate 'Digital Innovation Pot' to bypass this heavy industrial governance?"
+*(Ruslan's likely answer: "Because the Board views IT purely as a support function (Cost Center) to keep planes flying, not as a revenue generator.")*
+
+**5. The Root Cause:**
+"Why does the Board fail to see the Mobile App as a revenue generator when it likely processes 50% of your tickets?"
+*(Ruslan's likely answer: "Because they are Aviation experts who believe value is created by **buying planes**, and the app is just a digital ticket booth. They trust metal, not code.")*

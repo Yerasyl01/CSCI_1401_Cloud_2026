@@ -1,0 +1,6 @@
+The Problem: The "Digital CapEx" Trap.
+The Finance & Investment Committee treats software features exactly like aircraft acquisitions.
+    Detailed Diagnosis:
+    1. The Workflow: To get budget for a new digital product (e.g., "Automated Disruption Handling" in the app), a Product Manager must submit a massive Business Case 6–12 months in advance, detailing fixed scope, fixed delivery dates, and guaranteed ROI (e.g., "Will save $2M/year").
+    2. The Bottleneck: This requires "certainty" before "discovery." Because the organization is designed to buy physical assets (Planes) where the specs are known years in advance, they force that same Waterfall Governance onto software.
+    3. The Result: Teams lie about certainty to get funding. Once funded, they are locked into building exactly what they promised 6 months ago, even if they discover it's the wrong solution. They are "mercenaries" executing a contract, not "missionaries" solving a problem.
